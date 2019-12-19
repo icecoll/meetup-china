@@ -12,6 +12,11 @@ class App extends Component {
         <Content />
         <Footer />
       </div>
+      <Switch>
+        <Route path="/">
+          <App />
+        </Route>
+      </Switch>
     );
   }
 }
